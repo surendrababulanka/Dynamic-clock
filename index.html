@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <section></section>
+    <div class="container align" id="container">
+       
+        <div class="wrapper align" id="wrapper">
+            <div class="icon" id="icon">
+                <span class="material-symbols-outlined moon" id="moon">
+                    dark_mode
+                    </span>
+                    <span class="material-symbols-outlined sun" id="sun">
+                        light_mode
+                        </span>
+            </div>
+            <div class="clock align">
+                
+                <div class="time align" id="clock">
+                    <span class="hr_num hour" id="time">08</span>
+                    <span class="text">Hours</span>
+                </div>
+                <span class="colon" id="colon">:</span>
+            </div>
+            <div class="clock align" id="clock2">
+                <div class="time align" >
+                    <span class="min_num min" id="min">08</span>
+                    <span class="text">minutes</span>
+                </div>
+                <span class="colon" id="colon2">:</span>
+            </div>
+            <div class="clock align" id="clock3">
+                <div class="time align" >
+                    <span class="sec_num sec" id="sec">08</span>
+                    <span class="text">Seconds</span>
+                </div>
+                <span class="shift" id="shift">AM</span>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
